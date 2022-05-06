@@ -1,3 +1,5 @@
+
 1. 下载python2（安装加环境变量）
 2. 在当前文件夹下打开cmd，并运行 python jemdoc.py index.jemdoc
 其中index.jemdoc可换成别的jemdoc文件
+3. 利用git上传 密码使用token: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
