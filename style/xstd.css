@@ -1,0 +1,263 @@
+/*
+ Theme Name: GARAGE
+ Author: Web Domus ITALIA
+ Author URI: http://www.webdomus.net/
+ Description: GARAGE a multi-purpose HTML5 template built with latest Bootstrap framework. It offers flexible solutions, responsive, well documented and comes packed with tons of feature and options which they can be easily customized! It is a perfect solution for all kinds of businesses from small businesses to startups and bloggers.
+ Version: 1.0.0
+ License:  GARAGE template is under Creative Commons Attribution 4.0 International License.
+ Template: GARAGE
+ */
+
+
+.allcontain{
+	max-width: 1366px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.header{
+	background: url(../images/bg-header.jpg);
+	height: 100px;
+	background-size: 100% 100px;
+}
+.header-container{
+	display: block;
+    height: 84px;
+    margin: auto;
+    padding: 0;
+    width: 296px;
+}
+
+
+/*----------------------End Header --------------------*/
+
+.topnav{
+	background: none;
+}
+.topnavbar .container{
+	margin-left: 107px !important;
+}
+.toggle-costume{
+	float: left;
+}
+
+#navbarontop{
+	padding-left: 210px;
+	padding-top: 17px;
+	height:69px; 
+}
+@font-face {
+  font-family: "BebasNeue Regular";
+    src: url(../source/fonts/BebasNeue-Regular.otf) format("truetype");
+}
+  #navbarontop > li > a {
+  	font-family: 'BebasNeue Regular';
+  	font-size: 17px;
+  	color: #588181;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    margin-bottom: 22px;
+ 	padding-left: 10px;
+    padding-right: 10px!important;
+    margin-left: 34px;
+    border-bottom: 2px solid rgba(0,0,0,.0);
+
+  }
+  #navbarontop > li >a:hover{
+  	background-color: none!important;
+  	background: none!important;
+  	border-bottom: 2px solid #C59E47;
+  }
+ 
+
+ #navbarontop>button{
+ 	background: none;
+ 	background-color: none;
+ 	border: 2px solid #C59E47;
+ 	font-family: 'BebasNeue Regular';
+ 	margin-left: 60px;
+  	font-size: 16.99px;
+  	color: #313943;
+  	padding-left: 19px;
+  	padding-right: 19px;
+  	padding-top: -2px;
+  	padding-bottom:-2px;
+ }
+ #navbarontop>button:hover{
+ 	background-color: #C59E47;
+ 	color: #fff;
+ }
+ .dropdowncostume{
+ 	margin-left: 0px;
+ }
+ .navbar-default .toggle-costume:hover,
+.navbar-default .toggle-costume:focus {
+  background-color: #000;
+}
+.navbar-default .toggle-costume.icon-bar {
+  background-color: #fff;
+}
+.navbar-default .toggle-costume:hover .icon-bar {
+  background-color: #fff;
+}
+#navbarontop .open > a,
+#navbarontop .open > a:hover,
+#navbarontop .open > a:focus {
+	background-color: none!important;
+  border-color: #C59E47;
+}
+#navbarontop a:focus {
+  outline: none;
+  border-bottom: 2px solid #C59E47; 
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+	font-family: 'BebasNeue Regular';
+	font-size: 13pt;
+	color: #000;
+	background-color: rgba(255,255,255,.5);
+	text-align: center;
+
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover{
+	background-color: #fff;
+}
+.dropdown.open .dropdown-menu {
+    max-height: 200px;
+    opacity: 1;
+}
+
+ /*----------------- Navbar On Top Media screen -------------*/
+@media screen and (min-width: 320px) and (max-width: 480px){
+.dropdowncostume{
+	padding-left: 0px;
+	margin-left: 0px;
+}
+.topnavbar .container{
+	margin-left: 10px !important;
+}
+.logo{
+	position: absolute;
+	top:0px;
+	padding-top: 9px;
+	-webkit-transform: scale(0.5); /* Saf3.1+, Chrome */
+    -moz-transform: scale(0.5); /* FF3.5+ */
+    -ms-transform: scale(0.5); /* IE9 */
+    -o-transform: scale(0.5); /* Opera 10.5+ */
+     transform: scale(0.5);
+}
+.toggle-costume{
+	float: right;
+}
+#navbarontop{
+	 padding-left: 0px;
+	padding-top: 26px; 
+	height: 250px;
+}
+#navbarontop>li>a{
+	margin-left: 0px;
+	padding-left: 50px;
+	font-size: 13pt;
+	margin-bottom: 10px;
+
+}
+ #navbarontop>button{
+ 	margin-left:50px;
+ 
+ }
+.navbar-default .navbar-nav .open .dropdowncostume > li > a {
+	text-align: left;
+	margin-left: 40px;
+}
+#upmenu{
+	margin-bottom: 15px;
+}
+}
+@media screen and (min-width: 481px) and (max-width: 767px){
+.topnavbar .container{
+	margin-left: 10px !important;
+}
+.toggle-costume{
+float: right;
+}
+ #navbarontop>button{
+ 	margin-left:50px;
+ 
+ }
+.logo{
+	position: absolute;
+	top:10px;
+	padding-top: 9px;
+	-webkit-transform: scale(0.7); /* Saf3.1+, Chrome */
+    -moz-transform: scale(0.7); /* FF3.5+ */
+    -ms-transform: scale(0.7); /* IE9 */
+    -o-transform: scale(0.7); /* Opera 10.5+ */
+     transform: scale(0.7);
+}
+#navbarontop{
+	 padding-left: 0px;
+	padding-top: 40px; 
+	height: 250px;
+}
+#navbarontop>li>a{
+	margin-left: 0px;
+	padding-left: 50px;
+	font-size: 13pt;
+	margin-bottom: 10px;
+
+}
+.navbar-default .navbar-nav .open .dropdowncostume > li > a {
+	text-align: left;
+	margin-left: 40px;
+}
+#upmenu{
+	margin-bottom: 15px;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 1199px){
+	.topnavbar .container {
+		margin-left: 50px !important;
+	}
+	#navbarontop{
+		padding-left: 15%;
+	}
+	#navbarontop > li > a {
+    padding-bottom: 6px;
+    margin-bottom: 22px;
+ 	  padding-left: 0px;
+    padding-right: 0px!important;
+    margin-left: 20px;
+
+  }
+}
+
+
+
+/* ------------------------ End Navbar On Top -----------------*/
+.content{
+	background: url(../images/bg-content.jpg);
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 20px 0;
+	width: 950px;
+	height: 3200px;
+}
+.content-container{
+	float: left;
+	margin: 0 10px 0 50px;
+	padding: 0;
+}
+.content-container > .title{
+	color: #97aeb3;
+	font-size: 24px;
+	font-weight: normal;
+	margin: 0;
+	padding: 10px 0 20px 0;
+	text-transform: capitalize;
+}
+.content-container > .members > .people {
+	width: 150px;
+	display: inline-block;
+	margin: 0 20px;
+}
+.content-container > .members> .people > img {
+	height: 200px;
+}
