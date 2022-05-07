@@ -227,31 +227,39 @@ float: right;
 	background: url(https://i.imgur.com/aVktioC.png);
 	margin: 0 auto;
 	overflow: hidden;
-	padding: 10px 40px;
+	padding: 10px 20px;
 	width: 950px;
 }
-.content > .title{
-	color: #97aeb3;
-	font-size: 24px;
-	font-weight: normal;
-	margin: 0;
-	padding: 10px 0 20px 0;
-	text-transform: capitalize;
+.content > ul > div{
+  margin: 25px;
+	display: inline-block;
+	height: 50px;
+	width: 400px;
+	background-color: #CCE3FC;
+	padding: 15px;
+	vertical-align: middle;
+	text-align: center;
+	font-family: 'alexa-std';
+	font-size: 16px;
+	font-weight: 700;
 }
-.content p {
-	color: black;
-  font-size: 16px;
-	margin-bottom: 50px;
-}
+
 .content > ul {
 	padding: 0;
 	margin-bottom: 700px;
+	display: flex;
+	flex-wrap: wrap;
 }
-.content > ul > li {
-	margin: 20px 40px;
-	font-size: 16px;
+.content > ul >li{
+	display: flex;
+	width: 400px;
+	margin: 25px;
+	align-items: center;
 }
-
+.content > ul > li > img{
+	width: 300px;
+	height: 200px;
+}
 
 /* ------------------------ Footer -----------------*/
 .footer {
