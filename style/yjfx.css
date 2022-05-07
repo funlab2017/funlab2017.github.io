@@ -227,104 +227,42 @@ float: right;
 	background: url(https://i.imgur.com/aVktioC.png);
 	margin: 0 auto;
 	overflow: hidden;
-	padding: 20px 0;
+	padding: 10px 40px;
 	width: 950px;
-	padding-bottom: 50px;
 }
-.carousel-inner{
-  width: 80%;
-	margin:0 auto;
-}
-.bio{
-	width: 760px;
-	margin: 0 auto;
-}
-.index-title{
+.content > .title{
 	color: #97aeb3;
 	font-size: 24px;
 	font-weight: normal;
-	margin: 10px 0;
-	padding: 20px 0;
-	text-transform: capitalize;
-}
-.bio>p {
-	color: #767676;
-	line-height: 30px;
 	margin: 0;
-}
-.recent-content {
-	width: 760px;
-	margin: 0 auto;
-	position: relative;
-	height: 380px;
-}
-.recent-content .index-title {
-	color: #97aeb3;
-	font-size: 24px;
-	font-weight: normal;
-	margin: 10px 0;
-	padding: 20px 0;
+	padding: 10px 0 20px 0;
 	text-transform: capitalize;
-	margin-bottom: 0px;
 }
-.recent-content > ul {
-	margin-top: 0;
-	padding: 0px;
-	margin-bottom: 10px;
+.content > ul {
+	padding: 0;
 }
-.more {
-	color: #97aeb3;
-	text-decoration: none;
-	font-size: 16px;
-	position: absolute;
-	right: 10px;
-}
-.recent-content > ul >li{
-	display: flex;
-	margin-top: 20px;
-	border-bottom: 1px dotted #555;
-}
-.recent-content > ul >li > a{
-	height: 70px;
-}
-.recent-content > ul >li  img{
-	width: 50px;
-	height: 50px;
-	border-radius: 25px;
-	margin-right: 10px;
-}
-.recent-content > ul >li p{
-	vertical-align: middle;
-	color: #767676;
-	line-height: 30px;
-}
-.activities{
-	width: 760px;
-	margin: 0 auto;
-	position: relative;
-	margin-bottom: 50px;
-}
-.activities .index-title{
-	margin-top: 0px;
-  padding-top: 0px;
-}
-.activities ul{
-	display: flex;
-	padding-left: 30px;
-}
-.activities ul li {
+.content > ul > li {
 	display: inline-block;
-	margin-right: 60px;
+	margin: 0 10px;
+  margin-bottom: 20px;
 }
-.activities ul li p {
-	margin: 10px 10px;
-  text-align: center;
-	color: #000000;
-	font-size: 14px;
+.content > ul > li > p{
+	color: #767676;
+	line-height: 28.5px;
+	margin: 0;
+	padding: 10px 20px 10px 0;
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
 }
-.activities ul img {
-	width: 200px;
-	height: 200px;
+.content > ul > li > a > img {
+	height: 300px;
+	width: 400px;
+}
+.content > ul > li > span{
+	color: #767685;
+	font-size: 16px;
+	line-height: 30px;
 }
 /* ------------------------ Footer -----------------*/
 .footer {
