@@ -231,7 +231,7 @@ float: right;
 
 
 
-/* ------------------------ End Navbar On Top -----------------*/
+/* ------------------------ Content -----------------*/
 .content{
 	background: url(https://s3.bmp.ovh/imgs/2022/05/07/8154145b252d0c8e.jpg);
 	margin: 0 auto;
@@ -240,20 +240,21 @@ float: right;
 	width: 950px;
 	height: 3200px;
 }
+/* ------------------------ carousel -----------------*/
 .carousel-inner{
   width: 80%;
 	margin:0 auto;
 }
+/* ------------------------ bio -----------------*/
 .bio{
 	width: 760px;
 	margin: 0 auto;
 }
-.bio>h2{
-  margin-top: 20px;
+.index-title{
 	color: #97aeb3;
 	font-size: 24px;
 	font-weight: normal;
-	margin: 0;
+	margin: 10px 0;
 	padding: 20px 0;
 	text-transform: capitalize;
 }
@@ -261,5 +262,59 @@ float: right;
 	color: #767676;
 	line-height: 30px;
 	margin: 0;
-	padding: 10px 0;
+}
+/* ------------------------ recent-content -----------------*/
+.recent-content {
+	width: 760px;
+	margin: 0 auto;
+}
+.recent-content .index-title {
+	margin-bottom: 0px;
+}
+.recent-content > ul {
+	margin-top: 0;
+	padding: 0px;
+	margin-bottom: 10px;
+}
+.recent-content > ul >li{
+	display: flex;
+	margin-top: 20px;
+	border-bottom: 1px dotted #555;
+}
+.recent-content > ul >li > a{
+	height: 70px;
+}
+.recent-content > ul >li  img{
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	margin-right: 10px;
+}
+.recent-content > ul >li p{
+	vertical-align: middle;
+	color: #767676;
+	line-height: 30px;
+}
+/* ------------------------ activities -----------------*/
+.activities{
+	width: 760px;
+	margin: 0 auto;
+}
+.activities ul{
+	display: flex;
+	padding-left: 88px;
+}
+.activities ul li {
+	display: inline-block;
+	margin-right: 88px;
+}
+.activities ul li p {
+	margin: 10px 10px;
+  text-align: center;
+	color: #000000;
+	font-size: 14px;
+}
+.activities ul img {
+	width: 300px;
+	height: 300px;
 }
