@@ -15,7 +15,7 @@
 	margin-right: auto;
 }
 .header{
-	background: url(../images/bg-header.jpg);
+	background: url(https://s3.bmp.ovh/imgs/2022/05/07/2addc3fb9bbccb13.jpg);
 	height: 100px;
 	background-size: 100% 100px;
 }
@@ -233,7 +233,7 @@ float: right;
 
 /* ------------------------ End Navbar On Top -----------------*/
 .content{
-	background: url(../images/bg-content.jpg);
+	background: url(https://s3.bmp.ovh/imgs/2022/05/07/8154145b252d0c8e.jpg);
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 20px 0;
