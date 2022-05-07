@@ -6,7 +6,7 @@
 	margin-right: auto;
 }
 .header{
-	background: url(https://i.imgur.com/4LMilCW.png);
+	background: url(https://raw.githubusercontent.com/funlab2017/funlab2017.github.io/master/img/bg-header.jpg);
 	height: 100px;
 	background-size: 100% 100px;
 }
@@ -224,7 +224,7 @@ float: right;
 
 /* ------------------------ Content -----------------*/
 .content{
-	background: url(https://i.imgur.com/aVktioC.png);
+	background: url(https://raw.githubusercontent.com/funlab2017/funlab2017.github.io/master/img/bg-content.jpg);
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 10px 40px;
