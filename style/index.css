@@ -35,11 +35,13 @@
 	padding-left: 210px;
 	padding-top: 17px;
 	height:69px; 
+	display: flex;
 }
 @font-face {
   font-family: "BebasNeue Regular";
     src: url(../source/fonts/BebasNeue-Regular.otf) format("truetype");
 }
+
   #navbarontop > li > a {
   	font-family: 'BebasNeue Regular';
   	font-size: 17px;
@@ -115,112 +117,12 @@
     max-height: 200px;
     opacity: 1;
 }
-
- /*----------------- Navbar On Top Media screen -------------*/
-@media screen and (min-width: 320px) and (max-width: 480px){
-.dropdowncostume{
-	padding-left: 0px;
-	margin-left: 0px;
+.collapse {
+	display: block;
 }
-.topnavbar .container{
-	margin-left: 10px !important;
+.navbar-nav > li{
+	float: none;
 }
-.logo{
-	position: absolute;
-	top:0px;
-	padding-top: 9px;
-	-webkit-transform: scale(0.5); /* Saf3.1+, Chrome */
-    -moz-transform: scale(0.5); /* FF3.5+ */
-    -ms-transform: scale(0.5); /* IE9 */
-    -o-transform: scale(0.5); /* Opera 10.5+ */
-     transform: scale(0.5);
-}
-.toggle-costume{
-	float: right;
-}
-#navbarontop{
-	 padding-left: 0px;
-	padding-top: 26px; 
-	height: 250px;
-}
-#navbarontop>li>a{
-	margin-left: 0px;
-	padding-left: 50px;
-	font-size: 13pt;
-	margin-bottom: 10px;
-
-}
- #navbarontop>button{
- 	margin-left:50px;
- 
- }
-.navbar-default .navbar-nav .open .dropdowncostume > li > a {
-	text-align: left;
-	margin-left: 40px;
-}
-#upmenu{
-	margin-bottom: 15px;
-}
-}
-@media screen and (min-width: 481px) and (max-width: 767px){
-.topnavbar .container{
-	margin-left: 10px !important;
-}
-.toggle-costume{
-float: right;
-}
- #navbarontop>button{
- 	margin-left:50px;
- 
- }
-.logo{
-	position: absolute;
-	top:10px;
-	padding-top: 9px;
-	-webkit-transform: scale(0.7); /* Saf3.1+, Chrome */
-    -moz-transform: scale(0.7); /* FF3.5+ */
-    -ms-transform: scale(0.7); /* IE9 */
-    -o-transform: scale(0.7); /* Opera 10.5+ */
-     transform: scale(0.7);
-}
-#navbarontop{
-	 padding-left: 0px;
-	padding-top: 40px; 
-	height: 250px;
-}
-#navbarontop>li>a{
-	margin-left: 0px;
-	padding-left: 50px;
-	font-size: 13pt;
-	margin-bottom: 10px;
-
-}
-.navbar-default .navbar-nav .open .dropdowncostume > li > a {
-	text-align: left;
-	margin-left: 40px;
-}
-#upmenu{
-	margin-bottom: 15px;
-}
-}
-@media screen and (min-width: 768px) and (max-width: 1199px){
-	.topnavbar .container {
-		margin-left: 50px !important;
-	}
-	#navbarontop{
-		padding-left: 15%;
-	}
-	#navbarontop > li > a {
-    padding-bottom: 6px;
-    margin-bottom: 22px;
- 	  padding-left: 0px;
-    padding-right: 0px!important;
-    margin-left: 20px;
-
-  }
-}
-
-
 
 /* ------------------------ Content -----------------*/
 .content{

@@ -35,6 +35,7 @@
 	padding-left: 210px;
 	padding-top: 17px;
 	height:69px; 
+	display: flex;
 }
 @font-face {
   font-family: "BebasNeue Regular";
@@ -219,7 +220,12 @@ float: right;
 
   }
 }
-
+.collapse {
+	display: block;
+}
+.navbar-nav > li{
+	float: none;
+}
 
 
 /* ------------------------ Content -----------------*/
