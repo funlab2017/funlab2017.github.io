@@ -282,3 +282,14 @@ float: right;
 	white-space: normal;
 	font-size: 16px
 }
+.footer {
+	height: 50px;
+	width: 100%;
+	background: url(https://i.imgur.com/89w1F63.png);
+	vertical-align: middle;
+	text-align: center;
+	line-height: 55px;
+	color: #767676;
+	float: center;
+	font-size: 11px;
+}

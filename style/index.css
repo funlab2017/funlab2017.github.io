@@ -229,6 +229,7 @@ float: right;
 	overflow: hidden;
 	padding: 20px 0;
 	width: 950px;
+	padding-bottom: 50px;
 }
 .carousel-inner{
   width: 80%;
@@ -301,6 +302,7 @@ float: right;
 	width: 760px;
 	margin: 0 auto;
 	position: relative;
+	margin-bottom: 50px;
 }
 .activities .index-title{
 	margin-top: 0px;
@@ -323,4 +325,15 @@ float: right;
 .activities ul img {
 	width: 200px;
 	height: 200px;
+}
+.footer {
+	height: 50px;
+	width: 100%;
+	background: url(https://i.imgur.com/89w1F63.png);
+	vertical-align: middle;
+	text-align: center;
+	line-height: 55px;
+	color: #767676;
+	float: center;
+	font-size: 11px;
 }
