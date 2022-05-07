@@ -1,0 +1,9 @@
+1. gmail账号：funlab.xmu.edu@gmail.com  密码： funlab2017
+2. github账号：邮箱-funlab.xmu.edu@gmail.com 密码-funlab20172017 用户名-funlab2017
+3. 图片统一上传到：https://imgur.com/ 复制链接：上传后复制shared link里面的BBcode的链接+.png/pdf
+4. 开发流程：
+从git下载最新的分支code
+修改内容所牵涉的html与css文件
+修改时可将html用默认浏览器打开，可保存修改后刷新网页看看实时修改结果
+修改完成后用git上传文件
+千万不要修改index.html的文件名，github是根据此页面搭建网页
