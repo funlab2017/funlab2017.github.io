@@ -272,7 +272,7 @@ float: right;
 	padding: 0px;
 	margin-bottom: 10px;
 }
-.recent-content > a {
+.more {
 	color: #97aeb3;
 	text-decoration: none;
 	font-size: 16px;
@@ -301,6 +301,7 @@ float: right;
 .activities{
 	width: 760px;
 	margin: 0 auto;
+	position: relative;
 }
 .activities .index-title{
 	margin-top: 0px;
