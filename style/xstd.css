@@ -238,7 +238,6 @@ float: right;
 	overflow: hidden;
 	padding: 20px 0;
 	width: 950px;
-	height: 3200px;
 }
 .content-container{
 	float: left;
@@ -272,4 +271,14 @@ float: right;
 .content-container > ul > li > a > img {
 	height: 200px;
 	width: 150px;
+}
+.content-container > div > p {
+	color: rgb(118, 118, 133);
+	line-height: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 10px 20px 10px 0px;
+	font-family: Conv_Ubuntu-Light;
+	white-space: normal;
+	font-size: 16px
 }
