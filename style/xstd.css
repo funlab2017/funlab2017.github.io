@@ -253,11 +253,23 @@ float: right;
 	padding: 10px 0 20px 0;
 	text-transform: capitalize;
 }
-.content-container > .members > .people {
+.content-container > ul > li {
 	width: 150px;
 	display: inline-block;
 	margin: 0 20px;
+  margin-bottom: 20px;
 }
-.content-container > .members> .people > img {
+.content-container > ul > li > p{
+	vertical-align: middle;
+	text-align: center;
+	width: 150px;
+	color: #767676 !important;
+	line-height: 30px;
+	margin-left: 0px;
+	padding: 2px 0;
+	font-size: 16px;
+}
+.content-container > ul > li > a > img {
 	height: 200px;
+	width: 150px;
 }
