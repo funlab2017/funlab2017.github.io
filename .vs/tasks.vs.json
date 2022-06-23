@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "任务-2020毕业季",
+      "appliesTo": "img/2020毕业季.jpg",
+      "type": "launch"
+    }
+  ]
+}
