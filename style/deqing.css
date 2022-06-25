@@ -254,11 +254,11 @@ float: right;
 	white-space: normal;
 }
 .content img{
-	width: 326px;
-	height: 325px;
+	width: 150px;
+	height: 200px;
 	float: right;
-	margin-left: 20px;
-	margin-top: 0px;
+	margin-left: 0px;
+	margin-top: -50px;
 }
 .content > h2 {
 	width: 200px;
