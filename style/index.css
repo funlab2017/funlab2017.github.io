@@ -212,7 +212,7 @@
 }
 .activities ul{
 	display: flex;
-	padding-left: 25px;
+	padding-left: 15px;
 }
 .activities ul li {
 	display: inline-block;
