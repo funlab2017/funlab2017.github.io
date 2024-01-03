@@ -1,5 +1,5 @@
-1. gmail账号：funlab.xmu.edu@gmail.com  密码： 【实验室负责人保存】
-2. github账号：邮箱：funlab.xmu.edu@gmail.com  密码：funlab20172017  用户名：funlab2017
+1. gmail账号：【实验室负责人保存】  密码： 【实验室负责人保存】
+2. github账号：邮箱：【实验室负责人保存】  密码：【实验室负责人保存】  用户名：【实验室负责人保存】
 3. 图片统一上传到：github图床  
 使用方式：https://www.flighty.cn/html/tutorial/20200217_576.html
 需下载PicGo软件
