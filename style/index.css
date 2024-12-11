@@ -6,7 +6,7 @@
 	margin-right: auto;
 }
 .header{
-	background: url(https://raw.githubusercontent.com/funlab2017/funlab2017.github.io/master/img/bg-header.jpg);
+	background: url(../FUNLAB-image/icon/bg-header.jpg);
 	height: 100px;
 	background-size: 100% 100px;
 }
@@ -126,7 +126,7 @@
 
 /* ------------------------ Content -----------------*/
 .content{
-	background: url(https://raw.githubusercontent.com/funlab2017/funlab2017.github.io/master/img/bg-content.jpg);
+	background: url(../FUNLAB-image/icon/bg-content.jpg);
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 20px 0;
@@ -232,7 +232,7 @@
 .footer {
 	height: 50px;
 	width: 100%;
-	background: url(https://raw.githubusercontent.com/funlab2017/funlab2017.github.io/master/img/bg-footer.jpg);
+	background: url(../FUNLAB-image/icon/bg-footer.jpg);
 	vertical-align: middle;
 	text-align: center;
 	line-height: 55px;
