@@ -1,6 +1,11 @@
 [submodule "FUNLAB-image"]
-	path = FUNLAB-image
-	url = git@github.com:funlab2017/FUNLAB-image.git
+    path = FUNLAB-image
+    url = git@github.com:funlab2017/FUNLAB-image.git
+
 [submodule "FUNLAB-pdf"]
-	path = FUNLAB-pdf
-	url = git@github.com:funlab2017/FUNLAB-pdf.git
+    path = FUNLAB-pdf
+    url = git@github.com:funlab2017/FUNLAB-pdf.git
+
+[submodule "funlab2017.github.io"]
+    path = funlab2017.github.io
+    url = git@github.com:funlab2017/funlab2017.github.io.git
